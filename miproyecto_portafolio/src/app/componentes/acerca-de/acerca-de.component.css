@@ -4,3 +4,11 @@
 div{
     text-align: center;
 }
+
+/*etiqueta nombre*/
+
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+    
+}
