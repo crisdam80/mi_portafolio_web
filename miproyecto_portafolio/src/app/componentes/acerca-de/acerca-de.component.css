@@ -5,14 +5,15 @@ div{
     text-align: center;
 }
 /*estilo de la foto de perfil*/
-@media(min-whidth:576px){
-    #fotodeperfil{
+@media (min-width:576px){
+    #perfil-foto {
         position: absolute;
-        width: 15%;
         border-radius: 100%;
-        
-    }
-
+        width: 15%;
+        left: 3%;
+        top: 600px;
+      }
+      
 }
 
 
