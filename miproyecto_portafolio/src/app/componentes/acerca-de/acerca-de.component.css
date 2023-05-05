@@ -5,6 +5,8 @@
 }
 
 .perfil-foto {
+  margin-top: -140px;  
+  margin-left: 3px;
   width: 100%;
   max-width: 200px;
   height: auto;
@@ -20,4 +22,11 @@
 
 .perfil-info h2 {
   margin-bottom: 0;
+}
+
+#texto{
+    margin-left: 6px;
+}
+#acerca{
+    margin-left: 6px; 
 }
