@@ -1,47 +1,23 @@
-.row{
-    padding: 20px;
-}
-div{
-    text-align: center;
-}
-/*estilo de la foto de perfil*/
-@media (min-width:576px){
-    #perfil-foto {
-        position: absolute;
-        border-radius: 100%;
-        width: 15%;
-        left: 3%;
-        top: 600px;
-      }
-      
+.perfil-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-
-
-/*etiqueta nombre*/
-
-#nombre{
-    font-weight: bold;
-    margin-top: 30%;
-    
+.perfil-foto {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 100%;
 }
 
-#perfil-foto {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-  }
-  
-  .perfil-texto {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    .perfil-texto {
-      font-size: 20px;
-    }
-  }
-  
+.perfil-info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.perfil-info h2 {
+  margin-bottom: 0;
+}
