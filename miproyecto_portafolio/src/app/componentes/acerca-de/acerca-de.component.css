@@ -25,3 +25,23 @@ div{
     margin-top: 30%;
     
 }
+
+#perfil-foto {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .perfil-texto {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .perfil-texto {
+      font-size: 20px;
+    }
+  }
+  
